@@ -1,11 +1,3 @@
-"""
-Post-Quantum Cryptography Module (Simulation)
-Simulates Crystals-Dilithium and Crystals-Kyber behavior using established cryptography
-
-NOTE: This is a SIMULATION for demonstration purposes. In production, use actual
-PQC implementations from liboqs or other NIST-approved sources.
-"""
-
 from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.asymmetric import rsa, padding
 from cryptography.hazmat.backends import default_backend
