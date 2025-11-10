@@ -1,0 +1,124 @@
+{
+  "length": 3,
+  "difficulty": 2,
+  "nodes": [
+    "Alice",
+    "Bob",
+    "Charlie"
+  ],
+  "pending_transactions": 0,
+  "blocks": [
+    {
+      "index": 0,
+      "transactions": [],
+      "timestamp": 1762685552.3543286,
+      "previous_hash": "0",
+      "qkd_metadata": {
+        "genesis": true
+      },
+      "nonce": 262,
+      "hash": "00b3c4d791fb95880088251a050bdf419ada9883867dc870d621eb8a6ae58f55"
+    },
+    {
+      "index": 1,
+      "transactions": [
+        {
+          "sender": "Alice",
+          "receiver": "Bob",
+          "amount": 50.0,
+          "timestamp": 1762685556.9988246,
+          "data": {
+            "description": "Payment for quantum computing services",
+            "category": "services",
+            "project_id": "QC-2025-001"
+          },
+          "signature": "44494c49544849554d355f5349473a0659b3feba86d64d72583232315b80c70613a8ee5ce3e9837bca0dd87a46ccdc5bc7aa674ebc58612d97c3df84189a0ae3c7d0a2477a1f2f238a7af20a4acbd903c6ba71cbba1b3c9f453ad84b525c06f6497ff5afde3b7e7737fa72637f9a2a81c370b42adb97f6aca99767a6d9cccdbd6f3ce4a9fd3b2a415192cd010e68c54fdf44b510e1955b20f20a917ce669e39e93c205209d7ceacaeac1a9ce9a49ce64a0c83d4614d9d8ae1d1de3bdee9f63194e22fd0637df03f81d583f8eb201d8c189d097343f13d1d7a9e7676a0895335fb8fba077cfaba2cb71ba7041b2ec2985cf2d7c386fd908f41191c1a87af4ec469f48d3fc281fc65d43e97cb32ed3b846256e32063b13ee172a7d5b3fcb59141f0e6f9c69d305c1eb003532d2094e6ff9d934c1b1d350bda2d3d7501543afc9857d594d39a265528c7d7217d1043d5a58e65f24e8977075fd534abfc9ae45efad18892848f0c7288ff55dedcff8d6a925ae7d6ee4179b39a2b20d72e14c0776aaa6ee36992966334212c64974bc23ce342c38d059e3fda3ca1e5bf17eb5a76ff9b880a1d748e458a81a2a793c4329cb794cb6a7414e2fc10d2b60c16fca6385ec35ec459d33d101c345158cd8fb71a53627869ed011e41d3f2f67cd5692c050325d5cc9b5527bd60b007e6bedddaced9200d3204d54e40c112662e01ece4f5a6172a4709937655816f8f65a866f15cf",
+          "tx_hash": "2a63588a3d5ce27eed817784c856fbff79724065007b2a66b74d4bde3431172d"
+        },
+        {
+          "sender": "Bob",
+          "receiver": "Charlie",
+          "amount": 25.0,
+          "timestamp": 1762685558.1065438,
+          "data": {
+            "description": "Research grant transfer",
+            "category": "research",
+            "project_id": "QC-2025-002"
+          },
+          "signature": "44494c49544849554d355f5349473a236017c2dfb903555bd99c215446d0075e577aa35a6ff9a5fef62a25f67202dfd50aa3fbbcb7fbbd934beff44de8dc19bd1184afa833c1f0d32b48639812d0efb30cd3fddf55887e002f9b72dd5a3cb487ed003e03ff9a2909e472e7c4698b35acde2599254e75f801193118b8f8f6c3667a351a829f3cead3d9aa7fe6e018e50e5ced03c7136735e9cf1c01d696344a443506b378d48f33c364d87b248ba5c8b0efa32918e59a0353ea4c0cc516d177bcc52f4caf6695c62f045ff0c2783fdd4cb98dff19a349ad85586909cc6dc916bf5ea3873bc9636cf41167520d7978fd31a1f1005e3087303b045d21b0ba1542d628f85383df582dee6860d79508a0f9ae109336bbbdc5d7ff786e290d4b98a79c60250279a1877f270e1fa1d010aaf28b583a709019ca98f73570f353f71743e2a7fa6e7d92da92bfc77885efddb0ef38fcea1dcc16da65945137e880136a1ea9ba4a487b6913be0fc6fd87318dbfaaa744a5a9c8a603e96b352b11d09a3bca9114ebc9ecf94682c8cc4e3e7785e5dd566dd8f2999365bfa0276809664c58977fd8bdb8f3b0fe047040ecf20df9740c8bedca43b78977ab51f10054504a7b191bd5a3546f7d8688f8e44ba08c7df03f3aa68d10ca222c7b6fab697fc61757a58e40ccad7f5a55be8a1134ce3287bcab05a7e316cb5d55afa21f6d851a6041e5f6d9bc5b74185a2103a246e2ed1698ec",
+          "tx_hash": "b6ca464096d098e4f9e2597ba430b468773ff2bc127ded6b745bd85537c443a9"
+        },
+        {
+          "sender": "Charlie",
+          "receiver": "Alice",
+          "amount": 10.0,
+          "timestamp": 1762685559.2106807,
+          "data": {
+            "description": "Equipment lease payment",
+            "category": "equipment",
+            "project_id": "QC-2025-003"
+          },
+          "signature": "44494c49544849554d355f5349473a9002a92271112f840df959bce5f10a272770033980e0cc9604886510a004e3dee350e079af15f5875ba3b33f657b9d8ee08268205b594640369eb4bfd26ecb791a2a3f7bc45eaf0935c6eb6185202f254baac6c47351152f06eca7d37a7669edd3baeb61cf2281800f9e3698ef1681155ee8715375f6a3d4cb445942428d25e5d8c78abd2fb57ba24f26b2c1b25df077280b1544f873699c20d2cf2ce72fdbbbdd2dc433b8f4d61a230921b9c53fb71d865edea7448ae06dfddbd08eab7a0b45116eedbe02dbff20f988b662644658058eee012c98e25aec7d66eaecf3333f252f8717c73f3d790e3684edb59b9d5f7f1622d2dc75f4d09ae801a7d448c2564e6d50d79788def34ccb8215b77b9d533437cb2ed63d44e484736cdbeebaa5ea8fff4c165a43dca0f9a75dc856411dc448ea5e8b95ecc4fb7466f00b43634e754718af2e62ae2b140786bcb0b4f35b7677510f819f64f807d1b821c63038b9e5ffe986c09639341ade881b2da3f324acb8b645cebc374f2578a03f6c593448acde2cdc714c82958b84218d737b33249e45e03b37b2b79463e602b3a0f880a618fd8bd9afa8f42d55fe02da2b6736be81bea06b7c09b342f2e91677aa030eb3d5e45d2cd0bd2587b903af7494583d2db4aa78ffb08b19ff8dbe114521c037419d895bed69e151242ea2835f852eb708e0ca76c270548563af0dd0f22ac69582895f",
+          "tx_hash": "1fd6d22362f50fa1edbd2182d4703b25cf54fc3ae023838956f66b96bdd19c40"
+        }
+      ],
+      "timestamp": 1762685560.8006725,
+      "previous_hash": "00b3c4d791fb95880088251a050bdf419ada9883867dc870d621eb8a6ae58f55",
+      "qkd_metadata": {
+        "node_a": "Alice",
+        "node_b": "network",
+        "key_hash": "80c32e44322e8dcc8c127bfbbc4dd3fd8d9bde9bcca914b563a30bb4254851b1",
+        "timestamp": 1762685560.8006725,
+        "protocol": "BB84",
+        "error_rate": 0.0,
+        "is_secure": true
+      },
+      "nonce": 18,
+      "hash": "005013da9eff41a2b72f5a566ee606eceb02657c2c19a61c2a3df93d5c13bfcd"
+    },
+    {
+      "index": 2,
+      "transactions": [
+        {
+          "sender": "Alice",
+          "receiver": "Charlie",
+          "amount": 15.0,
+          "timestamp": 1762685561.8028078,
+          "data": {
+            "description": "Consultancy fee",
+            "category": "services",
+            "project_id": "QC-2025-004"
+          },
+          "signature": "44494c49544849554d355f5349473a3b01834ea268571853ae22e88525a069a9cbb8900d1f78dda8e1a7e188aeedc6ecff64f57a423d00861fdd0a58a10f4352e5a66f28bc4cc4b97678b5502ce50e5c4d874ae25bd2ec90317f813d4f719e67e46b582dd2d22c72bc947b7f1ec56856c5f653c5d5e5d89c3e88a694698381dc486cded78303542e98ed57fa4c52b52c76d30980cbb3dd53887ce450b5494472f55e1127ed937073d01933a81fd22855a89b2710476f9610119525caba366c6b05dbfffda9677ca5a5755f27a922b59ff04a6ccce3e08b12ed08442e0f1473513e9f493de673c5b549399ac2c2a093c3ae0397d0187ebf80cb92f79d8bfdf8d24aaa0aed47f85995274cd81a799adec02cef0c051e9369f31538a9f10cc645099204031d253715359c33762f7e520a2ee767846370d820639c456670e6a4efafadfe730b136006431b569030a1e96ad3bab0ed44881475d7131720b29c511d6ebcbd1dacf38f0cd10f15b205ff811b2b11f051671577412f24334af5d6a8f547b74ca9816d3c8703383b576e7049801fe2b471b6ee384f4fe480c83970408ca56e287b8df99180b4cecaa59df501fdc1280db3f2da165ff96f51db288fda96783fd34cf3694d074ecc09f547bf4377e970ef15716ea67d08e82eb7bf82bcb2b33468e8275d2681178635d2f5f81060883da3784a42f0ffff99c9ae6eef10874619fdcfebef1ddbedfb9412e2e19ac5",
+          "tx_hash": "dd13e0df620f68d5db6926c04642006c906821be7b1e3a9b63a22d11b616ac70"
+        },
+        {
+          "sender": "Bob",
+          "receiver": "Alice",
+          "amount": 30.0,
+          "timestamp": 1762685562.8972173,
+          "data": {
+            "description": "Quantum algorithm licensing",
+            "category": "licensing",
+            "project_id": "QC-2025-005"
+          },
+          "signature": "44494c49544849554d355f5349473a03834bcc4773b8fe27ea601ed7e47602dbae7e85556c44772c8c358372eeba48d5670a5b0438d3624a868a5d944b7d561bab484ab3d4fff32a679179e49b80e9321cfbd8570955e59d75655bd7b8e6d6a6c20ef8e5653ead1b29e6311aff8d5fb5a2445b6e2d6397e176944833aa392f6dba09b4b3e03100f8fa2ef056cf8a5f01548d432ae391e214f5a214d68c6dbf9bca1b60ee632f7b66edd850f7d0fea90a0744d15be0f3dafc31d40670b979275ece6f32dde9480bcb3df28cc89adf0a0e7aec684b1cc7450e1b4f928ea00012d2cd07fdfe0365e2c816d49c1c17723d67d70d3ca9d9268d066510a02363dafc01afff404b0d7a1d2faddf270ea0c69510f3b0bccf95b319df054a45af3ea11b534753c51ac5d8f1a4c103e194cd2bb69cbc9b95aa1a765ef6c2cbfcf324e58296219f5b5b9cdb00d8859fa4a27c820076a1a267a0fc773441b204f4e0def52b95c18453aba3a2b44ed0a47aff41802b6792d670bd17d6546a0dcd647bbdd743b4228ce882c4372be5716f97ae35b7fcf258fa0d7328e27c0c464ec40362dfaa6ca54d20cc9f1f9953ffbb51e118127036b21dc75386a83f3139fb4408cf71791b9591d20650c52ace46f8860493d685dd4008773200a43eaf1458216470689cde16b4ba345a634d884b95995ef800edeb8de0176ba0c352257b45ccd90f710ffa82777f666720a83d9709e6f374cc57",
+          "tx_hash": "4f0525cd223aaec630dd7e0478ca83bc96ce0db0d7b8a71353456c596e4466b9"
+        }
+      ],
+      "timestamp": 1762685564.4777102,
+      "previous_hash": "005013da9eff41a2b72f5a566ee606eceb02657c2c19a61c2a3df93d5c13bfcd",
+      "qkd_metadata": {
+        "node_a": "Bob",
+        "node_b": "network",
+        "key_hash": "45b607dc7b93c091a75a23c49e5ab55ee3ea052a2ddd9db1e6ce4c6b27671681",
+        "timestamp": 1762685564.4777102,
+        "protocol": "BB84",
+        "error_rate": 0.0,
+        "is_secure": true
+      },
+      "nonce": 575,
+      "hash": "00c8ad71db4071eb250af7ff4e76baa5de4c435567a1b3d145e0384564c48244"
+    }
+  ]
+}
